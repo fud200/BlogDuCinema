@@ -6,5 +6,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="react.development" level="application" />
+    <orderEntry type="library" name="axios.amd" level="application" />
+    <orderEntry type="library" name="babel" level="application" />
+    <orderEntry type="library" name="axios" level="application" />
+    <orderEntry type="library" name="react-dom.development" level="application" />
   </component>
 </module>
