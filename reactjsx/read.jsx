@@ -4,7 +4,7 @@ class Dictionary {
     content_dict;
 }
 
-class Test extends React.Component {
+class Read extends React.Component {
     _isMounted = false;
 
     state = {
@@ -53,4 +53,4 @@ class Test extends React.Component {
 }
 
 const e = React.createElement;
-ReactDOM.render(e(Test), document.getElementById("test"));
+ReactDOM.render(e(Read), document.getElementById("test"));
