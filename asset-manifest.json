@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/BlogDuCinema/static/css/main.d1b05096.chunk.css",
-    "main.js": "/BlogDuCinema/static/js/main.d92227e2.chunk.js",
-    "main.js.map": "/BlogDuCinema/static/js/main.d92227e2.chunk.js.map",
+    "main.js": "/BlogDuCinema/static/js/main.96d6078f.chunk.js",
+    "main.js.map": "/BlogDuCinema/static/js/main.96d6078f.chunk.js.map",
     "runtime-main.js": "/BlogDuCinema/static/js/runtime-main.3afa84ca.js",
     "runtime-main.js.map": "/BlogDuCinema/static/js/runtime-main.3afa84ca.js.map",
-    "static/js/2.8d9b0eb9.chunk.js": "/BlogDuCinema/static/js/2.8d9b0eb9.chunk.js",
-    "static/js/2.8d9b0eb9.chunk.js.map": "/BlogDuCinema/static/js/2.8d9b0eb9.chunk.js.map",
+    "static/js/2.416ad48a.chunk.js": "/BlogDuCinema/static/js/2.416ad48a.chunk.js",
+    "static/js/2.416ad48a.chunk.js.map": "/BlogDuCinema/static/js/2.416ad48a.chunk.js.map",
     "index.html": "/BlogDuCinema/index.html",
-    "precache-manifest.060a77803b95ed4155e857d215cc22b7.js": "/BlogDuCinema/precache-manifest.060a77803b95ed4155e857d215cc22b7.js",
+    "precache-manifest.40182d887de7f513176029272fb4099f.js": "/BlogDuCinema/precache-manifest.40182d887de7f513176029272fb4099f.js",
     "service-worker.js": "/BlogDuCinema/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/BlogDuCinema/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.8d9b0eb9.chunk.js.LICENSE.txt": "/BlogDuCinema/static/js/2.8d9b0eb9.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/BlogDuCinema/static/media/logo.5d5d9eef.svg"
+    "static/js/2.416ad48a.chunk.js.LICENSE.txt": "/BlogDuCinema/static/js/2.416ad48a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3afa84ca.js",
-    "static/js/2.8d9b0eb9.chunk.js",
+    "static/js/2.416ad48a.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.d92227e2.chunk.js"
+    "static/js/main.96d6078f.chunk.js"
   ]
 }
