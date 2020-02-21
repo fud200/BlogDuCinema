@@ -1,14 +1,14 @@
-class User {
-    id;
-    name;
-    point;
+class Dictionary {
+    id_dict;
+    title_dict;
+    content_dict;
 }
 
 class Test extends React.Component {
     _isMounted = false;
 
     state = {
-        users: [User]
+        dict: [Dictionary]
     };
 
     constructor(props) {
@@ -18,13 +18,13 @@ class Test extends React.Component {
     componentDidMount() {
         this._isMounted = true;
 
-        axios.get('http://localhost:8080/user/all').then((response) => {
+        axios.get('https://likelion8th-test.herokuapp.com/dictionary/%E3%84%B1/').then((response) => {
             if (this._isMounted) {
                 this.setState({
-                    users : response.data
+                    dict : response.data
                 })
             }
-            console.log(this.state.users[0].id);
+            console.log(this.state.dict[0].title_dict);
         });
     }
 
@@ -33,8 +33,22 @@ class Test extends React.Component {
     }
 
     render() {
-        console.log(this.state.users[0].id);
-        return (<h1>{this.state.users[0].id}</h1>);
+        const style = {
+            borderTop: '1px solid #C8C8C8',
+            padding: '20px',
+        };
+
+        const data = this.state.dict;
+        const listItems = data.map((d) =>
+            <li key={d.id_dict} style={style}>
+                <h3>
+                    {d.title_dict}
+                </h3>
+                <br />
+                    {d.content_dict}
+            </li>
+        );
+        return (<div>{listItems}</div>);
     }
 }
 
